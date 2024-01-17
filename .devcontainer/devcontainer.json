@@ -1,0 +1,13 @@
+{
+    "name": "julia-exp",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig"
+            ]
+        }
+    }
+}
